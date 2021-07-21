@@ -1,16 +1,17 @@
-.rectangle{
-    border: 8px solid black;
-    margin: 16px;
-    padding: 16px;
-    width: 512px;
-    height: 128px;
-    background-color: aquamarine;
+.rectangle {
+  border: 8px solid black;
+  margin: 16px;
+  padding: 16px;
+  width: 512px;
+  height: 128px;
 }
 
-.rectangle2{
-    box-sizing: border-box;
+.rectangle2 {
+  box-sizing: border-box;
+  background-color: azure;
 }
 
-.rectangle1{
-    box-sizing: content-box;
+.rectangle1 {
+  box-sizing: content-box;
+  background-color: aquamarine;
 }
