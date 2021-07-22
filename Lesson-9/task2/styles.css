@@ -10,3 +10,7 @@
     background-color: red;
     float: right;
 }
+.container {
+    float:left;
+    width: 50%;
+}
