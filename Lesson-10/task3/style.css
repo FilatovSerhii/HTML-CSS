@@ -58,7 +58,7 @@ aside h2{
     display: flex;
         justify-content: center;
         align-items: center;
-        margin: 16px 0;
+        margin: 16px;
 }
 .news_list, .news_item{
     display: flex;
