@@ -1,68 +1,74 @@
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
 
-.header{
-    display: flex;
-    height: 40px;
-    background-color: yellow;
-    align-items: center;
-    
+.header {
+  display: flex;
+  height: 40px;
+  background-color: yellow;
+  align-items: center;
 }
-.footer{
-    display: flex;
-    height: 40px;
-    background-color: green;
-}
-
-
-.navigation{
-    margin:0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-}
-.navigation_item{
-    margin-left: 16px;
+.footer {
+  display: flex;
+  height: 40px;
+  background-color: green;
 }
 
-.footer_text{
-    margin:auto;
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
 }
-.page{
-   display: flex; 
-   flex-direction: column;
-   min-height: 100vh;
-}
-.content{
-    flex-grow: 1;
-    display: flex;
-}
-.dashboard{
-    display: flex;
-    flex-grow: 1;
-    background-color: pink;
-    justify-content: center;
-    align-items: center;
-}
-.news{
-    width: 200px;
-    background-color: grey;
-    
+.navigation_item {
+  margin-left: 16px;
 }
 
-aside h2{
-    text-align: center;
+.footer_text {
+  margin: auto;
 }
-.p_news{
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 16px;
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.news_list, .news_item{
-    display: flex;
-    line-height: 40px;
-    list-style-type: none;
-    flex-direction: column;
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  width: 200px;
+  background-color: grey;
+}
+
+aside h2 {
+  text-align: center;
+}
+.p_news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.news_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news_item {
+  min-height: 40px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
 }
