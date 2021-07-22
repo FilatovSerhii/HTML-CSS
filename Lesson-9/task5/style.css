@@ -1,25 +1,34 @@
-.header,
-.navigation>ul {
-    box-sizing: border-box;
-    background-color: darkturquoise;
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    margin: 0;
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-.nav-list>li {
-    line-height: 40px;
-    color: white;
-    list-style: none;
-    float: left;
-    margin-left: 16px;
+header.header {
+  background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
-.content {
-    background-color: beige;
-    height: 5000px;
+ul.nav-list {
+  height: 40px;
+  margin: 0px;
+  line-height: 2.5;
+}
+
+ul.nav-list .nav-item {
+  color: white;
+  display: inline-block;
+  margin-left: 16px;
+  height: 40px;
+}
+
+main.content {
+  width: 100%;
+  background-color: beige;
+  height: 5000px;
 }
 
 .head {
