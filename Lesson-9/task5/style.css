@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+li {
+  list-style: none;
+}
 .header {
   background-color: darkturquoise;
   height: 40px;
@@ -50,7 +52,7 @@ main {
   top: -60px;
 }
 .eye {
-  border-radius: 50%;
+  border-radius: 30px;
   width: 30px;
   height: 30px;
   background-color: grey;
