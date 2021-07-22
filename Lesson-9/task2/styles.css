@@ -1,0 +1,12 @@
+*{
+    box-sizing:border-box ;
+}
+.green{
+    background-color: green;
+    float: left;
+}
+
+.red{
+    background-color: red;
+    float: right;
+}
