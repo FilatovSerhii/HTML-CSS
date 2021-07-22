@@ -1,8 +1,9 @@
-*{
+body{
     box-sizing: border-box;
 }
 
 .header{
+    margin: 0;
     height: 40px;
     background-color: yellow;
     display: flex;
@@ -22,11 +23,11 @@
     display: flex;
     list-style-type: none;
 }
-.navigation__item{
-    margin-right: 10px;
+.navigation_item{
+    margin-right: 16px;
 }
 
-.footer__text{
+.footer_text{
     margin:auto;
 }
 .page{
@@ -48,4 +49,15 @@
 .news{
     width: 200px;
     background-color: grey;
+    
+}
+
+aside h2{
+    text-align: center;
+}
+.news_list, .news_item{
+    display: flex;
+    line-height: 40px;
+    list-style-type: none;
+    flex-direction: column;
 }
