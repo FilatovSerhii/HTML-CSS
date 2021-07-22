@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
 }
-li {
-  list-style: none;
-}
+
 .header {
   background-color: darkturquoise;
   height: 40px;
