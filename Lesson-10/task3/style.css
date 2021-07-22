@@ -54,6 +54,12 @@ body{
 aside h2{
     text-align: center;
 }
+.p_news{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px 0;
+}
 .news_list, .news_item{
     display: flex;
     line-height: 40px;
