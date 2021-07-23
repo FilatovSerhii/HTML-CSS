@@ -1,14 +1,11 @@
-div {
-  height: 100px;
-  width: 100px;
-  background-color: coral;
+.container>div:nth-child(1) {
+    display: none;
 }
-div:nth-child(1) {
-  display: none;
+
+.container>div:nth-child(2) {
+    visibility: hidden;
 }
-div:nth-child(2) {
-  visibility: hidden;
-}
-div:nth-child(3) {
-  visibility: visible;
+
+.container>div:nth-child(3) {
+    visibility: visible;
 }
